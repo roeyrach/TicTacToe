@@ -116,7 +116,7 @@ public class AddStartActivity extends AppCompatActivity implements View.OnClickL
                 imageView.setImageResource(R.drawable.owin);
             }
         }
-        if(full == 9){
+        if(!real_finish && full == 9){
             ImageView imageView = findViewById(R.id.who_is_playing_img);
             imageView.setImageResource(R.drawable.nowin);
             real_finish = true;
